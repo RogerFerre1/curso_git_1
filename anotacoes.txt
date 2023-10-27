@@ -27,3 +27,6 @@ clonar repositorio
 
 git clone + link do repositorio
 
+remover arquivos
+
+git rm + nome 
