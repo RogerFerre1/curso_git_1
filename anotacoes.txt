@@ -23,3 +23,7 @@ Pegar atualizações do repo remoto para a maquina local
 
 git pull
 
+clonar repositorio
+
+git clone + link do repositorio
+
