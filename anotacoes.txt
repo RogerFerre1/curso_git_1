@@ -14,3 +14,12 @@ commits
 
 flag -a adiciona varios arquivos de uma vez
 flag -m coloca uma mensagem de commit
+
+enviar pro github
+
+git push
+
+Pegar atualizações do repo remoto para a maquina local 
+
+git pull
+
