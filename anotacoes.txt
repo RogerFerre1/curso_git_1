@@ -1,0 +1,16 @@
+git init - comando pra inicializar um repositorio
+git add
+git commit -m
+git branch -M main
+git remote add origin - e cola o link do repo
+git push -u origin master
+
+remover uma origin
+
+git remote -v para listar as origens
+git remote rm origin para remover a origin
+
+commits
+
+flag -a adiciona varios arquivos de uma vez
+flag -m coloca uma mensagem de commit
