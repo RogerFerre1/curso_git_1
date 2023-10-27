@@ -37,5 +37,9 @@ git log
 
 mover ou renomear arquivos
 
-git mv 
+mover
+git mv rodape.css css/rodape.css
 
+renomear
+
+git mv css/bannerinicia.css css/banner_inicial.css
