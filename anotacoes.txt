@@ -44,3 +44,7 @@ renomear
 
 git mv css/bannerinicia.css css/banner_inicial.css
 
+retornar o arquivo ao estado original
+
+git checkout
+
