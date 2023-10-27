@@ -30,3 +30,12 @@ git clone + link do repositorio
 remover arquivos
 
 git rm + nome 
+
+ver todas as alterações
+
+git log
+
+mover ou renomear arquivos
+
+git mv 
+
