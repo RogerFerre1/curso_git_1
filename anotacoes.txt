@@ -48,3 +48,7 @@ retornar o arquivo ao estado original
 
 git checkout
 
+ignorar arquivos 
+
+criar um arquivo .gitignore e colocar o nome do arquivo dentro dele
+
