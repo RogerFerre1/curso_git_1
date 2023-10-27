@@ -52,3 +52,8 @@ ignorar arquivos
 
 criar um arquivo .gitignore e colocar o nome do arquivo dentro dele
 
+desfazendo todas as alterações
+
+git reset
+
+usar junto com a flag --hard para eliminar todas as alterações incluindo as pendentes
