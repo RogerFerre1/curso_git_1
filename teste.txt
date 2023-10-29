@@ -2,3 +2,11 @@ Testando repo
 teste
 
 testando atualização do clone
+
+testando merge 
+a
+b
+
+a 
+b 
+c 
