@@ -88,3 +88,16 @@ git checkout branch que ira receber os arquivos
 git merge branch que ira passar os arquivos
 
 
+resetar o arquivo sem perder totalmente o código
+
+git stash
+
+ele manda as modificações apagadas para a lixeira
+
+verificar as stashs criadas
+
+git stash list
+
+recuperar a stash 
+
+git stash nome  
