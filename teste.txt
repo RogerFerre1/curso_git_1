@@ -4,6 +4,12 @@ teste
 testando atualização do clone
 
 testando merge 
+<<<<<<< HEAD
 a
 b
+=======
+
+a 
+b 
+>>>>>>> teste_criacao
 c 
