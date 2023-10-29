@@ -57,3 +57,26 @@ desfazendo todas as alterações
 git reset
 
 usar junto com a flag --hard para eliminar todas as alterações incluindo as pendentes
+
+criando e visualizando branches
+
+git branch para visualizar as disponiveis 
+
+git branch <nome> para criar uma
+
+deletando branches
+
+git branch -d ou --delete, só se usa se a branch for criada errado
+
+mudar de branch
+
+git checkout nome da branch
+
+criar uma branch e mudar pra ela 
+
+git checkout -b nome da branch
+
+unindo branches
+
+git merge nome da branch a ser unida
+
