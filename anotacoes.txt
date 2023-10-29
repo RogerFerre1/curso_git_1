@@ -80,3 +80,11 @@ unindo branches
 
 git merge nome da branch a ser unida
 
+passo a passo do merge:
+
+modifica o arquivo
+git commit 
+git checkout branch que ira receber os arquivos
+git merge branch que ira passar os arquivos
+
+
