@@ -101,3 +101,5 @@ git stash list
 recuperar a stash 
 
 git stash nome  
+
+git stash apply 1
