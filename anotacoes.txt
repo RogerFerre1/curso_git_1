@@ -144,3 +144,7 @@ git push origin <nome>
 
 git push origin --tags
 
+# encontrando branches remotos
+
+git fetch 
+
