@@ -5,55 +5,142 @@ git branch -M main
 git remote add origin - e cola o link do repo
 git push -u origin master
 
-remover uma origin
+# remover uma origin
 
 git remote -v para listar as origens
 git remote rm origin para remover a origin
 
-commits
+# commits
 
 flag -a adiciona varios arquivos de uma vez
 flag -m coloca uma mensagem de commit
 
-enviar pro github
+# enviar pro github
 
 git push
 
-Pegar atualizações do repo remoto para a maquina local 
+# Pegar atualizações do repo remoto para a maquina local 
 
 git pull
 
-clonar repositorio
+# clonar repositorio
 
 git clone + link do repositorio
 
-remover arquivos
+# remover arquivos
 
 git rm + nome 
 
-ver todas as alterações
+# ver todas as alterações
 
 git log
 
-mover ou renomear arquivos
+# mover ou renomear arquivos
 
-mover
+# mover
+
 git mv rodape.css css/rodape.css
 
-renomear
+# renomear
 
 git mv css/bannerinicia.css css/banner_inicial.css
 
-retornar o arquivo ao estado original
+# retornar o arquivo ao estado original
 
 git checkout
 
-ignorar arquivos 
+# ignorar arquivos 
 
 criar um arquivo .gitignore e colocar o nome do arquivo dentro dele
 
-desfazendo todas as alterações
+# desfazendo todas as alterações
 
 git reset
 
 usar junto com a flag --hard para eliminar todas as alterações incluindo as pendentes
+
+# criando e visualizando branches
+
+git branch para visualizar as disponiveis 
+
+git branch <nome> para criar uma
+
+# deletando branches
+
+git branch -d ou --delete, só se usa se a branch for criada errado
+
+# mudar de branch
+
+git checkout nome da branch
+
+# criar uma branch e mudar pra ela 
+
+git checkout -b nome da branch
+
+# unindo branches
+
+git merge nome da branch a ser unida
+
+# passo a passo do merge:
+
+# modifica o arquivo
+git commit 
+git checkout branch que ira receber os arquivos
+git merge branch que ira passar os arquivos
+
+
+# resetar o arquivo sem perder totalmente o código
+
+git stash
+
+# ele manda as modificações apagadas para a lixeira
+
+# verificar as stashs criadas
+
+git stash list
+
+# recuperar a stash 
+
+git stash nome  
+
+git stash apply 1
+
+# ver quais foram as alterações da stash
+
+git stash show -p numero da stash
+
+# remover stash
+
+git stash clear
+
+# caso seja uma especifica
+
+git stash drop numero da stash
+
+# Utilizando tags
+
+# tags são utilizadas para demarcar estágios do desenvolvimento de algum recurso
+# são uma espécie de checkpoint de um branch
+
+# para criar uma tag se utiliza o comando 
+
+git tag -a <nome> -m "<msg>"
+
+# Verificar e alterar a tag
+
+# Verificar
+
+git show <nome>
+
+# trocar
+
+git checkout <nome>
+
+# enviar tag
+
+git push origin <nome>
+
+# enviar mais de 1 tag
+
+git push origin --tags
+
