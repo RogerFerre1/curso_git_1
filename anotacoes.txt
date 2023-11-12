@@ -3,7 +3,7 @@ git add
 git commit -m
 git branch -M main
 git remote add origin - e cola o link do repo
-git push -u origin master
+git push -u origin main
 
 # remover uma origin
 
@@ -148,3 +148,81 @@ git push origin --tags
 
 git fetch 
 
+# adicionar um repo remoto
+
+git remote
+
+git remote add origin <link>
+
+# adicionar um submódulo
+
+git submodule add <repo>
+
+# verificar o submodulo
+
+git submodule
+
+# verificar alterações
+
+git show
+git show <tag>
+
+# exibindo diferenças 
+
+git diff
+
+# comparando arquivos
+
+git diff <arquivo><arquivo_b>
+
+# log resumido 
+
+git shortlog
+
+# limpar arquivos que não foram trackeados (não utilizou git add)
+# mais utilizados para arquivos gerados automaticamente
+
+git clean
+
+# otimizar o repositório
+# identifica arquivos desnecessarios e apaga pra aumentar a performance
+
+git gc
+
+# checar integridade dos arquivos
+
+git fsck
+
+# mapear todos os passos no repositorio
+# log mais completo
+# ficam salvos até expirar (padrão de 30 dias)
+
+git reflog
+
+# passando o repo para arquivo
+
+git archive --format zip --output main_files.zip main
+
+# alterar com facilidade uma variedade de commits, modificando o histórico do seu repositório. 
+# É possível reordenar, editar ou combinar commits por squash
+
+git rebase <atual> <funcionalidade> -i
+
+# nos commits que deseja apagar aperta i e troca pick por squash
+squash
+
+# nos commits que deseja renomear aperta i e troca pick por reword
+reword
+
+# pra confirmar no insert
+:x!
+
+# Boas práticas
+
+# Boas msg de commit
+
+Separar assunto do corpo da msg
+assunto com no max 50 caracteres
+assunto com letra inicial maiuscula
+corpo com no maximo 72 caracteres
+explicar o pq e como do commit e nao como o codigo foi escrito
